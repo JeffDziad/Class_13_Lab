@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gradebook</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+
+<div id="formBox">
+<fieldset>
+    <legend>Grade-Book</legend>
+    <form>
+        <label for="fName">First Name: <input type="text" id="fName"></label>
+        <label for="lName">Last Name: <input type="text" id="lName"></labeL>
+        <label for="pEarned">Points Earned: <input type="number" id="pEarned"></label>
+        <label for="pPossible">Points Possible: <input type="number" id="pPossible"></label>
+        <input type="submit" id="submitButton">
+    </form>
+</fieldset>
+</div>
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Student Grade</h2>
+        <p id="outputName"></p>
+        <p id="outputPercent"></p>
+        <p id="outputGrade"></p>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous">
+</script>
+<script src="code.js"></script>
+</body>
+</html>
