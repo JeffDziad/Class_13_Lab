@@ -15,18 +15,22 @@
         <label for="lName">Last Name: <input type="text" id="lName"></labeL>
         <label for="pEarned">Points Earned: <input type="number" id="pEarned"></label>
         <label for="pPossible">Points Possible: <input type="number" id="pPossible"></label>
-        <input type="submit" id="submitButton">
+        <input type="submit" id="submitButton" value="Add Student">
     </form>
+    <br>
+    <button id="viewArray">View Added Students</button>
+    <br><br>
+    <button id="sortArrayByName">Sort By Last Name</button>
+    <br><br>
+    <button id="sortArrayByPercent">Sort By Percent</button>
 </fieldset>
 </div>
 
 <div id="myModal" class="modal">
     <div class="modal-content">
         <span class="close">&times;</span>
-        <h2>Student Grade</h2>
-        <p id="outputName"></p>
-        <p id="outputPercent"></p>
-        <p id="outputGrade"></p>
+        <h2>Database Viewer</h2>
+        <textarea id="output" cols="50" rows="25" readonly></textarea>
     </div>
 </div>
 

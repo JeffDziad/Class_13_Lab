@@ -36,8 +36,8 @@ label
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 500px;
 }
 
 .close {
@@ -52,4 +52,9 @@ label
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+#output
+{
+    resize: none;
 }
